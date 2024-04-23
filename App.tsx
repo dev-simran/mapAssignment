@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import MapView, {Marker, Polygon} from 'react-native-maps';
 import Geolocation from '@react-native-community/geolocation';
+//Getting Battery Optimization Status from Native Module
 const {BatteryOptimization} = NativeModules;
 function App() {
   const [currentLocation, setCurrentLocation] = useState(null);
